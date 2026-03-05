@@ -1,0 +1,28 @@
+ap-ai-tutor
+│
+├── README.md
+├── requirements.txt
+├── .env.example
+│
+├── backend
+│   ├── main.py
+│   ├── ai_agent.py
+│   ├── quiz_generator.py
+│   ├── notes_analyzer.py
+│   ├── resource_search.py
+│
+├── database
+│   └── vector_store.py
+│
+├── frontend
+│   ├── package.json
+│   ├── public
+│   │   └── index.html
+│   └── src
+│       ├── App.js
+│       ├── QuizPage.js
+│       ├── NotesUploader.js
+│       └── Dashboard.js
+│
+└── scripts
+    └── scrape_ap_resources.py
